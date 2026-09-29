@@ -25,3 +25,13 @@ this is third
 '''
 
 print(multilinestr) # Output: This if the 1st Line
+
+subtotal = 512
+tax_rate = 0.075
+tip_rate = 0.18
+
+tax = subtotal * tax_rate
+tip = subtotal * tip_rate
+total = subtotal + tax + tip
+
+print(f'Restaurant Bill\n------------------\nSubtotal:\tINR {subtotal:.2f}\nTax:\t\tINR {tax:.2f}\nTip:\t\tINR {tip:.2f}\n------------------\nTotal:\t\tINR {total:.2f}')
